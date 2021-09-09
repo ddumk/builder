@@ -1,0 +1,34 @@
+{
+    "name": "ddumk/builder",
+    "description": "Laravel数据库增删改查构造器",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maikewen",
+            "email": "ddumaike@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "laravel/framework": "^6.18"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Builder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Builder\\Providers\\BuilderServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}
