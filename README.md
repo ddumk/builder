@@ -1,2 +1,2 @@
 # builder
-Laravel数据库增删改查建造器
+Laravel数据库增删改查构造器
